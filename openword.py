@@ -52,7 +52,7 @@ names_odd_pages = extract_odd_pages(names)
 index = create_index(names_odd_pages)
 
 # Set the output file path to be in the same directory as the input file, with the name "目录.docx"
-output_file_path = os.path.join(os.path.dirname(input_file_path), "目录.docx")
+output_file_path = os.path.join(os.path.dirname(input_file_path), "干审表目录.docx")
 
 # Write the index to the output docx file
 write_index_to_docx_v2(index, output_file_path)
